@@ -11,7 +11,8 @@ cp Makefile ${ipynbs_path}/
 cd ${ipynbs_path}
 git clone https://${github_url} --branch gh-pages ${git_path}
 
-
+git --git-dir=${git_path}/.git/ --work-tree=${git_path} config user.name "auto"
+git --git-dir=${git_path}/.git/ --work-tree=${git_path} config user.email "auto@thoughtworks.com"
 ls *.ipynb | sed "s/.ipynb/.html/g" | xargs make
 rm do_parse.sh
 rm Makefile
