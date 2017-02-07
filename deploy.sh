@@ -13,8 +13,8 @@ cp restore_pushed_time.sh ${ipynbs_path}/
 cd ${ipynbs_path}
 git clone https://${github_url} --branch gh-pages ${git_path}
 
-cp ${git_path}/${demo_path}/*.html .
-bash restore_pushed_time.sh
+bash restore_pushed_time.sh ${git_path} ${demo_path}
+cp -p ${git_path}/${demo_path}/*.html .
 
 
 git config --global user.name "auto"
@@ -22,7 +22,7 @@ git config --global user.email "auto@thoughtworks.com"
 ls *.ipynb | sed "s/.ipynb/.html/g" | xargs make
 rm do_parse.sh
 rm Makefile
-git --git-dir=${git_path}/.git/ --work-tree=${git_path} commit -m "[auto] #001 auto generate the md from ipynb."
+git --git-dir=${git_path}/.git/ --work-tree=${git_path} commit -m "[auto] #001 auto generate the html from ipynb."
 git --git-dir=${git_path}/.git/ --work-tree=${git_path}  push https://tw-data-china-go-cd:${GITHUB_ACCESS_TOKEN}@${github_url}> git_result 2> git_result
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result

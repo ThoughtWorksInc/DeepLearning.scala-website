@@ -1,10 +1,26 @@
-for FILE in ./*.ipynb  *.html
+for FILE in *.ipynb *.html
 do
     TIME=$(git log --pretty=format:%cd -n 1 --date=iso $FILE)
-    TIME=$(python3 -c "from datetime import datetime;import sys;print(datetime.strptime(sys.argv[1], '%Y-%m-%d %H:%M:%S %z').strftime('%Y%m%d%H%M.%S'))
+    echo $TIME
+    TIME=$(python3 -c "import dateutil.parser;import sys;print(dateutil.parser.parse(sys.argv[1]).strftime('%Y%m%d%H%M.%S'))
     " "${TIME}")
     echo "${FILE}:${TIME}"
 
     touch -m -t $TIME $FILE
 done
+
+
+git_path=${1:-"deeplearning-website"}
+demo_path=${2:-"demo"}
+for FILE in $(pwd)/${git_path}/${demo_path}/*.html
+do
+    TIME=$(git --git-dir=${git_path}/.git/ --work-tree=${git_path} log --pretty=format:%cd -n 1 --date=iso $FILE)
+    echo $TIME
+    TIME=$(python3 -c "import dateutil.parser;import sys;print(dateutil.parser.parse(sys.argv[1]).strftime('%Y%m%d%H%M.%S'))
+    " "${TIME}")
+    echo "${FILE}:${TIME}"
+
+    touch -m -t $TIME $FILE
+done
+
 
