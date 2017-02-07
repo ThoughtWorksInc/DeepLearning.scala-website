@@ -23,7 +23,7 @@ mkdir -p ${dest_path}/${demo_download_path}
 cp -p ${ipynb_file} ${dest_path}/${demo_download_path}/${ipynb_file}
 
 #make sure the mapping of dir and index is exist
-grep -q "text: ${filename}" ${dest_path}/${demo_data_path} && sed -i "" -e '/text: ${filename}/{' -e 'n;s/.*/  url: \/${demo_path}\/{filename}.html/g' -e '}' ${dest_path}/${demo_data_path} ||
+grep -q "text: ${filename}" ${dest_path}/${demo_data_path} ||
 {
 echo -n "- text: ${filename}
   url: /${demo_path}/${filename}.html
