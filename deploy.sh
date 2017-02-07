@@ -30,4 +30,5 @@ sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result
 rm -rf deeplearning-website
 rm restore_pushed_time.sh
 rm git_result
+rm *.html
 exit ${exit_code}
