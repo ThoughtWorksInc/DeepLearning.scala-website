@@ -23,7 +23,7 @@ sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" bbb
 rm -rf deeplearning-website
 
 git add *.html 
-git ci -am "[auto] #001 generate html file."
+git ci -m "[auto] #001 generate html file."
 git push https://tw-data-china-go-cd:${GITHUB_ACCESS_TOKEN}@github.com/ThoughtWorksInc/DeepLearning.scala-website.git> bbb 2> bbb
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" bbb
