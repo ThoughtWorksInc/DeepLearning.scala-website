@@ -25,6 +25,9 @@ rm -rf deeplearning-website
 
 git add *.html 
 git commit -m "[auto] #001 generate html file."
+
+rm git_result
+
 git push https://tw-data-china-go-cd:${GITHUB_ACCESS_TOKEN}@github.com/ThoughtWorksInc/DeepLearning.scala-website.git> git_result 2> git_result
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result
