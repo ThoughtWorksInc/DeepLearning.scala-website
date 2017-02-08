@@ -1,2 +1,2 @@
 %.html:%.ipynb
-	bash do_parse.sh $< $@
+	bash ${MAKE_DIR}/parse.sh $< $@ ${GIT_DIR}
