@@ -18,7 +18,7 @@ execute_path=${ipynbs_dir_name}
 
 git clone https://${github_url} --branch gh-pages ${git_absolute_path}
 
-bash ${root_absolute_path}/restore_pushed_time.sh ${git_absolute_path} ${demo_path}
+bash ${root_absolute_path}/restore_pushed_time.sh ${git_absolute_path} ${demo_path} ${execute_path}
 cp -p ${git_absolute_path}/${demo_path}/*.html .
 
 
@@ -32,7 +32,7 @@ git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path}  push 
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result
 
-rm -rf deeplearning-website
+rm -rf ${git_absolute_path}
 rm git_result
 rm ${execute_path}/*.html
 exit ${exit_code}
