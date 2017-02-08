@@ -19,7 +19,7 @@ execute_path=${ipynbs_dir_name}
 git clone https://${github_url} --branch gh-pages ${git_absolute_path}
 
 bash ${root_absolute_path}/restore_pushed_time.sh ${git_absolute_path} ${demo_path} ${execute_path}
-cp -p ${git_absolute_path}/${demo_path}/*.html .
+cp -p ${git_absolute_path}/${demo_path}/*.html ${execute_path}
 
 
 git config --global user.name "auto"
