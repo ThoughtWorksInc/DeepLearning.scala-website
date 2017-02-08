@@ -19,18 +19,17 @@ git clone https://${github_url} --branch gh-pages ${git_absolute_path}
 
 
 
-cp_file_and_restore_time() {
+generate_html() {
     execute_path=$1
     html_path=${demo_absolute_path}/${execute_path}
     ipynb_path=${ipynbs_absolute_path}/${execute_path}
-    echo asdasdasdasd
     for FILE in ${execute_path}/*
     do
-        if [[ -d $FILE ]]; then
-            echo "$FILE is a directory"
-            cp_file_and_restore_time $FILE
-        elif [[ -f $FILE ]]; then
+        if [[ -f $FILE ]]; then
             echo "$FILE is a file"
+        elif [[ -d $FILE ]]; then
+            echo "$FILE is a directory"
+            generate_html $FILE
         else
             echo "$FILE is not valid"
         fi
@@ -46,7 +45,35 @@ cp_file_and_restore_time() {
     rm ${ipynb_path}/*.html
 }
 
-(cd ${ipynbs_absolute_path} && cp_file_and_restore_time .)
+delete_useless_html() {
+    execute_path=$1
+    html_path=${demo_absolute_path}/${execute_path}
+    ipynb_path=${ipynbs_absolute_path}/${execute_path}
+    for FILE in ${execute_path}/*
+    do
+        if [[ -f $FILE ]]; then
+            echo "$FILE is a file"
+            file=$(basename $FILE)
+            extension="${file##*.}"
+            filename="${file%.*}"
+            if [ "${extension}" == "html" ]; then
+                [ -f "${ipynb_path}/${filename}.ipynb" ] || rm -f ${html_path}/$file
+                echo "rm ${html_path}/$file"
+                git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path} add ${html_path}/$file
+            fi
+        elif [[ -d $FILE ]]; then
+            echo "$FILE is a directory"
+            delete_useless_html $FILE
+        else
+            echo "$FILE is not valid"
+        fi
+    done
+
+}
+
+(cd ${ipynbs_absolute_path} && generate_html .)
+
+(cd ${demo_absolute_path} && delete_useless_html .)
 
 git config --global user.name "auto"
 git config --global user.email "auto@thoughtworks.com"
