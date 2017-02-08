@@ -46,7 +46,7 @@ cp_file_and_restore_time() {
     rm ${ipynb_path}/*.html
 }
 
-(cd ${demo_absolute_path} && cp_file_and_restore_time .)
+(cd ${ipynbs_absolute_path} && cp_file_and_restore_time .)
 
 git config --global user.name "auto"
 git config --global user.email "auto@thoughtworks.com"
@@ -55,7 +55,7 @@ git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path}  push 
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result
 
-rm -rf ${git_absolute_path}
+#rm -rf ${git_absolute_path}
 rm git_result
 rm ${ipynbs_absolute_path}/*.html
 exit ${exit_code}
