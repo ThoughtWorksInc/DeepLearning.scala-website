@@ -75,9 +75,9 @@ delete_useless_html() {
 
 (cd ${demo_absolute_path} && delete_useless_html .)
 
-git config --global user.name "auto"
-git config --global user.email "auto@thoughtworks.com"
-git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path} commit -m "[auto] #001 auto generate the html from ipynb."
+git config --global user.name "tw-data-china"
+git config --global user.email "tw-data-china@thoughtworks.com"
+git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path} commit -m "Automatically generate the html from ipynb."
 git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path}  push https://tw-data-china-go-cd:${GITHUB_ACCESS_TOKEN}@${github_url}> git_result 2> git_result
 exit_code=$?
 sed "s/${GITHUB_ACCESS_TOKEN}/**************/g" git_result
