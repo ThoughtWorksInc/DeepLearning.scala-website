@@ -1,6 +1,6 @@
 
 import com.thoughtworks.deeplearning.DifferentiableINDArray._
-import com.thoughtworks.deeplearning.Layer.Batch
+import com.thoughtworks.deeplearning.Layer.Tape
 import com.thoughtworks.deeplearning.{BufferedLayer, Layer}
 import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
