@@ -1,6 +1,6 @@
 This documentation is a step-by-step tutorial about how to implement common machine learning algorithms with the help of DeepLearning.scala.
 
-## Download and run this tutorial
+## Run this tutorial
 
 The tutorials is written in Jupyter Notebook format.
 We encourage you download this tutorial and run locally on your own computer.
