@@ -1,22 +1,35 @@
-Prepare for DeepLearning.Scala
+This documentation is a step-by-step tutorial about how to implement common machine learning algorithms with the help of DeepLearning.scala.
 
-# What you will need to install
+## Run this tutorial
 
-1. [Jupyter notebook installation](https://github.com/alexarchambault/jupyter-scala)
-2. scala & java
-4. run the bash in src/main/resources named get_datasets.sh to get the dataset of cifar10 dataSets
+The tutorials is written in Jupyter Notebook format.
+We encourage you download this tutorial and run locally on your own computer.
 
-# Tutorials
+### Step 1: Download and unzip this tutorial
 
-Download the [demo](https://github.com/ThoughtWorksInc/DeepLearning.scala-website/archive/master.zip) before your journey!
+``` bash
+wget https://github.com/ThoughtWorksInc/DeepLearning.scala-website/archive/master.zip
+unzip master.zip
+```
 
-You may also find the [original code of the demo](https://github.com/izhangzhihao/deeplearning-tutorial)!
+### Step 2: Install Jupyter Scala
 
-# Get help
+Jupyter Scala is the Scala plugin of Jupyter Notebook. You can find the instruction to install it on [Jupyter Scala's project page](https://github.com/alexarchambault/jupyter-scala).
 
-Check the [scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/package.html) first!
+### Step 3: Start Jupyter Notebook
 
-Or ask question on [stackOverflow](http://stackoverflow.com/questions/ask)
+``` bash
+cd DeepLearning.scala-website-master/ipynbs
+jupyter notebook
+```
 
-If you want talk about DeepLearning.scala, join our [![Join the chat at https://gitter.im/ThoughtWorksInc/DeepLearning.scala](https://badges.gitter.im/ThoughtWorksInc/DeepLearning.scala.svg)](https://gitter.im/ThoughtWorksInc/DeepLearning.scala?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Alternative format
 
+* You can view this tutorial online. [Getting Started](https://thoughtworksinc.github.io/DeepLearning.scala/demo/GettingStarted.html) is the first one.
+* If you find any idea of this tutorial, you may want to create issues or Pull Requests on [its Github repository](https://github.com/ThoughtWorksInc/DeepLearning.scala-website).
+* There is also a [sbt version of this tutorial](https://github.com/izhangzhihao/deeplearning-tutorial) that can be open in your IDE.
+
+## Other resources
+
+ * [DeepLearning.scala project page](https://github.com/ThoughtWorksInc/DeepLearning.scala/)
+ * [DeepLearning.scala API reference](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/package.html)
