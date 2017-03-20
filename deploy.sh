@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-demo_data_path=_data/demo.yml
+demo_data_path=_data/doc.yml
 ipynbs_dir_name=${2:-"ipynbs"}
 demo_dir_name=demo
 root_absolute_path=${1:-$(pwd)}

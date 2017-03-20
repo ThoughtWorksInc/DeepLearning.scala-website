@@ -3,11 +3,11 @@ ipynb_file=$1
 html_file=$2
 dest_path=$3
 execute_path=$4
-demo_data_path=_data/demo.yml
+demo_data_path=_data/doc.yml
 demo_download_path=demo_download/${execute_path}
 demo_execute_path=demo/${execute_path}
 
-echo "--------------------jupyter convert"
+echo "--------------------jupyter notebook convert--------------------"
 jupyter nbconvert --to html --template basic $ipynb_file
 filename=${html_file%.html}
 
