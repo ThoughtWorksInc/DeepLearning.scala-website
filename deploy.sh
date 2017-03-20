@@ -75,6 +75,12 @@ delete_useless_html() {
 
 (cd ${demo_absolute_path} && delete_useless_html .)
 
+echo "--------------------update index.md--------------------"
+
+(cd ${ipynbs_absolute_path} && cp README.md ${git_absolute_path}/doc/index.md)
+git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path} add doc/index.md
+
+
 git config --global user.name "tw-data-china"
 git config --global user.email "tw-data-china@thoughtworks.com"
 git --git-dir=${git_absolute_path}/.git/ --work-tree=${git_absolute_path} commit -m "Automatically generate the html from ipynb."
