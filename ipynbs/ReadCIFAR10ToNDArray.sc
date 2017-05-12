@@ -12,13 +12,13 @@ import shapeless._
 
 import scala.collection.immutable.IndexedSeq
 
+  lazy val currentPath = new java.io.File(".").getCanonicalPath + "/"
+
   /**
     * 原始文件字节
     */
   lazy val originalFileBytesArray: Array[Array[Byte]] = {
     for (fileIndex <- 1 to 5) yield {
-
-      val currentPath = new java.io.File(".").getCanonicalPath + "/src/main/resources/"
 
       val fileName = currentPath + "/cifar-10-batches-bin" + "/data_batch_" + fileIndex + ".bin"
 
@@ -107,8 +107,6 @@ import scala.collection.immutable.IndexedSeq
     */
   def readFromResource(fileName: String,
                        count: Int): INDArray :: INDArray :: HNil = {
-
-    val currentPath = new java.io.File(".").getCanonicalPath + "/src/main/resources/"
 
     val filePathName = currentPath + fileName
 
