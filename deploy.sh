@@ -15,7 +15,7 @@ github_url=github.com/ThoughtWorksInc/DeepLearning.scala.git
 
 
 
-git clone https://${github_url} --branch gh-pages ${git_absolute_path}
+git clone https://${github_url} --single-branch --branch gh-pages ${git_absolute_path}
 
 
 
