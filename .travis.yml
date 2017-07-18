@@ -1,14 +1,9 @@
 sudo: false
 
-addons:
-  apt:
-    packages:
-      - python3-pip
+language: python
 
-language: ruby
-
-rvm:
-  - 2.2
+python:
+  - 3.6
 
 install:
   - curl -L -o jupyter-scala https://raw.githubusercontent.com/alexarchambault/jupyter-scala/master/jupyter-scala
