@@ -17,4 +17,4 @@ deploy:
   provider: pages
   local_dir: _site
   github_token: $GITHUB_PERSONAL_ACCESS_TOKEN
-  repo: git://github.com/ThoughtWorksInc/DeepLearning.scala.git
+  repo: ThoughtWorksInc/DeepLearning.scala
