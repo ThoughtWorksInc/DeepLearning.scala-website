@@ -11,3 +11,9 @@ install:
   - bundle install
 
 script: bundle exec jekyll build
+
+deploy:
+  skip_cleanup: true
+  provider: pages
+  local_dir: _site
+  github_token: $GITHUB_PERSONAL_ACCESS_TOKEN
