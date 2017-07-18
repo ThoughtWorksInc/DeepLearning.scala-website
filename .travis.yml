@@ -2,4 +2,8 @@ sudo: false
 
 language: ruby
 
+install:
+  - curl -L -o jupyter-scala https://raw.githubusercontent.com/alexarchambault/jupyter-scala/master/jupyter-scala
+  - bash jupyter-scala
+
 script: bundle exec jekyll build
