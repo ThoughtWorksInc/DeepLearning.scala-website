@@ -8,8 +8,8 @@ rvm:
 install:
   - curl -L -o jupyter-scala https://raw.githubusercontent.com/alexarchambault/jupyter-scala/master/jupyter-scala
   - bash jupyter-scala
-  - pip install --upgrade pip
-  - pip install jupyter
+  - pip3 install --upgrade pip
+  - pip3 install jupyter
   - bundle install
 
 script: bundle exec jekyll build
