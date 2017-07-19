@@ -10,7 +10,7 @@ DeepLearning.scala 2.0 comes with two major features in addition to DeepLearning
 
 In DeepLearning.scala 2.0, a neural network is an ordinary Scala function that returns a [Layer](https://javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Layers$Layer.html), which represents the process that dynamically creates computational graph nodes, instead of static computational graphs in TensorFlow or some other deep learning frameworks. All Scala features, including functions and expressions, are available in DeepLearning.scala's dynamic neural networks.
 
-`Factory`-based plugins resolve [expression problem](https://en.wikipedia.org/wiki/Expression_problem). Any hyperparameters, neural network optimization algorithms or special subnetworks are reusable in the simple `Factory[YouPlugin1 with YouPlugin2]` mechanism.
+`Factory`-based plugins resolve [expression problem](https://en.wikipedia.org/wiki/Expression_problem). Any hyperparameters, neural network optimization algorithms or special subnetworks are reusable in the simple `Factory[YourPlugin1 with YourPlugin2]` mechanism.
 
 See [Getting Started](http://deeplearning.thoughtworks.school/demo/2.0.0-Preview/GettingStarted.html) to have a try.
 
