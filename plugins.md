@@ -80,7 +80,38 @@ val hyperparameters = Factory[Builtins].newInstance()
 
 Most of non-built-in plugins are distributed as source files, as simple as a Gist.
 
-* [FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16) Setup fixed learning rate when training an INDArray weight.
-* Add your own algorithms, models or any cool features.
+<table>
+<thead>
+<th>
+Plugin Name
+</th>
+<th>
+Plugin Description
+</th>
+</thead>
+<tbody>
+<tr>
+<th>
+[FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16)
+</th>
+<td>
+Setup fixed learning rate when training INDArray weights.
+</td>
+</tr>
+<tr>
+<th>
+[Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe)
+</th>
+<td>
+An adaptive gradient algorithm with per-parameter learning rate for INDArray weights.
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="2">Add your own algorithms, models or any cool features here.</td>
+</tr>
+</tfoot>
+</table>
 
 See [Contributor Guide](demo/2.0.0-Preview/ContributorGuide.html) for the guideline to build a plugin.
