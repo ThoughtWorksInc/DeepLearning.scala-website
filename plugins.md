@@ -148,6 +148,14 @@ The Adam optimizer for SGD.
 </tr>
 <tr>
 <th>
+<a href="https://gist.github.com/TerrorJack/a7af811a0ee592d41ab57f2c5d49f08b#file-indarraydumping-sc">INDArrayDumping</a>
+</th>
+<td>
+A plugin to dump weight matrices during training.
+</td>
+</tr>
+<tr>
+<th>
 <a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-cnn-sc">CNN</a>
 </th>
 <td>
