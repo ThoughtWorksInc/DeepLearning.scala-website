@@ -100,7 +100,7 @@ Setup fixed learning rate when training INDArray weights.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe">Adagrad</a>
+<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc">Adagrad</a>
 </th>
 <td>
 An adaptive gradient algorithm with per-parameter learning rate for INDArray weights.
@@ -108,7 +108,7 @@ An adaptive gradient algorithm with per-parameter learning rate for INDArray wei
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3">L1Regularization</a>
+<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3#file-l1regularization-sc">L1Regularization</a>
 </th>
 <td>
 L1 Regularization.
@@ -116,10 +116,34 @@ L1 Regularization.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa">L2Regularization</a>
+<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa#file-l2regularization-sc">L2Regularization</a>
 </th>
 <td>
 L2 Regularization.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/08454c71448b626b013ddabd74d06adf#file-momentum-sc">Momentum</a>
+</th>
+<td>
+The Momentum optimizer for SGD.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/6b0640c76efc6788f13400ae91849e68#file-rmsprop-sc">RMSprop</a>
+</th>
+<td>
+The RMSprop optimizer for SGD.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/4a4dd1929963a34bf20340022b0f03d3#file-adam-sc">Adam</a>
+</th>
+<td>
+The Adam optimizer for SGD.
 </td>
 </tr>
 </tbody>
