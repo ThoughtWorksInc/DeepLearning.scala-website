@@ -9,9 +9,9 @@ A new [Contributor's guide](http://deeplearning.thoughtworks.school/demo/2.0.0-P
 
 ## How can I get help?
 
-- Check the [scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/package.html) first!
+- Check the [scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/package.html) first!
 
-- Or ask question on [stackOverflow](http://stackoverflow.com/questions/ask)
+- Or ask a relevant question on [stack overflow](http://stackoverflow.com/questions/ask)
 
 ## How can I help?
 
