@@ -124,7 +124,7 @@ L2 Regularization.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/08454c71448b626b013ddabd74d06adf#file-momentum-sc">Momentum</a>
+<a href="https://gist.github.com/TerrorJack/08454c71448b626b013ddabd74d06adf#file-readme-ipynb">Momentum</a>
 </th>
 <td>
 The Momentum optimizer for SGD.
@@ -132,7 +132,7 @@ The Momentum optimizer for SGD.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/6b0640c76efc6788f13400ae91849e68#file-rmsprop-sc">RMSprop</a>
+<a href="https://gist.github.com/TerrorJack/6b0640c76efc6788f13400ae91849e68#file-readme-ipynb">RMSprop</a>
 </th>
 <td>
 The RMSprop optimizer for SGD.
@@ -140,7 +140,7 @@ The RMSprop optimizer for SGD.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/4a4dd1929963a34bf20340022b0f03d3#file-adam-sc">Adam</a>
+<a href="https://gist.github.com/TerrorJack/4a4dd1929963a34bf20340022b0f03d3#file-readme-ipynb">Adam</a>
 </th>
 <td>
 The Adam optimizer for SGD.
@@ -148,7 +148,7 @@ The Adam optimizer for SGD.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/a7af811a0ee592d41ab57f2c5d49f08b#file-indarraydumping-sc">INDArrayDumping</a>
+<a href="https://gist.github.com/TerrorJack/a7af811a0ee592d41ab57f2c5d49f08b#file-readme-ipynb">INDArrayDumping</a>
 </th>
 <td>
 A plugin to dump weight matrices during training.
@@ -156,7 +156,7 @@ A plugin to dump weight matrices during training.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-cnn-sc">CNN</a>
+<a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-readme-ipynb">CNN</a>
 </th>
 <td>
 A standalone CNN implementation.
