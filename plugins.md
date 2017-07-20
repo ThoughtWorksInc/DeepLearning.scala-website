@@ -100,10 +100,26 @@ Setup fixed learning rate when training INDArray weights.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-readme-ipynb">Adagrad</a>
+<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe">Adagrad</a>
 </th>
 <td>
 An adaptive gradient algorithm with per-parameter learning rate for INDArray weights.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3">L1Regularization</a>
+</th>
+<td>
+L1 Regularization.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa">L2Regularization</a>
+</th>
+<td>
+L2 Regularization.
 </td>
 </tr>
 </tbody>
