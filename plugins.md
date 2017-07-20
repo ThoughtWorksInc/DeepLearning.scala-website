@@ -108,7 +108,7 @@ An adaptive gradient algorithm with per-parameter learning rate for INDArray wei
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3#file-l1regularization-sc">L1Regularization</a>
+<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3#file-readme-ipynb">L1Regularization</a>
 </th>
 <td>
 L1 Regularization.
@@ -116,7 +116,7 @@ L1 Regularization.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa#file-l2regularization-sc">L2Regularization</a>
+<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa#file-readme-ipynb">L2Regularization</a>
 </th>
 <td>
 L2 Regularization.
