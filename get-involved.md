@@ -3,6 +3,10 @@ layout: markdown
 title: Get Involved
 ---
 
+## Contributor's guide
+
+A new [Contributor's guide](http://deeplearning.thoughtworks.school/demo/2.0.0-Preview/ContributorGuide.html) is available. The guide is a recommended read for new contributors, and it contains examples on how to implement plugins for DeepLearning.scala. The contents below are kept as archive.
+
 ## How can I get help?
 
 - Check the [scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/package.html) first!
