@@ -92,7 +92,7 @@ Plugin Description
 <tbody>
 <tr>
 <th>
-[FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb)
+<a href="https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb">FixedLearningRate</a>
 </th>
 <td>
 Setup fixed learning rate when training INDArray weights.
@@ -100,7 +100,7 @@ Setup fixed learning rate when training INDArray weights.
 </tr>
 <tr>
 <th>
-[Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-readme-ipynb)
+<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-readme-ipynb">Adagrad</a>
 </th>
 <td>
 An adaptive gradient algorithm with per-parameter learning rate for INDArray weights.
