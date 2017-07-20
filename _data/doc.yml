@@ -7,8 +7,6 @@
       url: /demo/Debug.html
     - text: SoftmaxLinearClassifier
       url: /demo/SoftmaxLinearClassifier.html
-    - text: MiniBatchGradientDescent
-      url: /demo/MiniBatchGradientDescent.html
     - text: TwoLayerNet
       url: /demo/TwoLayerNet.html
     - text: CNNs
@@ -20,5 +18,3 @@
       url: /demo/2.0.0-Preview/GettingStarted.html
     - text: SoftmaxLinearClassifier
       url: /demo/2.0.0-Preview/SoftmaxLinearClassifier.html
-    - text: MiniBatchGradientDescent
-      url: /demo/2.0.0-Preview/MiniBatchGradientDescent.html
