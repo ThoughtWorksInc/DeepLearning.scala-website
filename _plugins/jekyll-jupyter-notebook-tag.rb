@@ -37,7 +37,6 @@ module JekyllJupyterNotebook
       Dir.mktmpdir do |output|
         system("jupyter",
                "nbconvert",
-               "--execute",
                "--template", "basic",
                "--to", "html",
                "--output-dir", output,
