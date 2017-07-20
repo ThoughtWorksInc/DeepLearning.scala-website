@@ -146,6 +146,14 @@ The RMSprop optimizer for SGD.
 The Adam optimizer for SGD.
 </td>
 </tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-cnn-sc">CNN</a>
+</th>
+<td>
+A standalone CNN implementation.
+</td>
+</tr>
 </tbody>
 <tfoot>
 <tr>
