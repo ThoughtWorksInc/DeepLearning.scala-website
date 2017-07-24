@@ -66,8 +66,96 @@ DeepLearning 2.0的代码结构利用了依赖对象类型演算（Dependent Obj
 
 ## DeepLearning.scala 2.0的插件
 
-* （此处将列出我们编写的插件，让用户感觉DeepLearning.scala 2.0功能很丰富）
-* [贡献你自己的插件](http://deeplearning.thoughtworks.school/get-involved)
+
+<table>
+<thead>
+<th>
+插件名称
+</th>
+<th>
+插件描述
+</th>
+</thead>
+<tbody>
+<tr>
+<th>
+<a href="https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb">FixedLearningRate</a>
+</th>
+<td>
+Setup fixed learning rate when training INDArray weights.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc">Adagrad</a>
+</th>
+<td>
+An adaptive gradient algorithm with per-parameter learning rate for INDArray weights.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3#file-readme-ipynb">L1Regularization</a>
+</th>
+<td>
+L1 Regularization.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/a60ff752270c40a6485ee787837390aa#file-readme-ipynb">L2Regularization</a>
+</th>
+<td>
+L2 Regularization.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/08454c71448b626b013ddabd74d06adf#file-readme-ipynb">Momentum</a>
+</th>
+<td>
+The Momentum and NesterovMomentum optimizer for SGD.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/6b0640c76efc6788f13400ae91849e68#file-readme-ipynb">RMSprop</a>
+</th>
+<td>
+The RMSprop optimizer for SGD.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/4a4dd1929963a34bf20340022b0f03d3#file-readme-ipynb">Adam</a>
+</th>
+<td>
+The Adam optimizer for SGD.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/a7af811a0ee592d41ab57f2c5d49f08b#file-readme-ipynb">INDArrayDumping</a>
+</th>
+<td>
+A plugin to dump weight matrices during training.
+</td>
+</tr>
+<tr>
+<th>
+<a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-readme-ipynb">CNN</a>
+</th>
+<td>
+A standalone CNN implementation.
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="2"><a href="http://deeplearning.thoughtworks.school/get-involved">贡献你自己的算法、模型或者任何炫酷的功能</a></td>
+</tr>
+</tfoot>
+</table>
 
 ## 相关链接
 
