@@ -69,17 +69,19 @@ DeepLearning 2.0的代码结构利用了依赖对象类型演算（Dependent Obj
 
 <table>
 <thead>
+<tr>
 <th>
 插件名称
 </th>
 <th>
 插件描述
 </th>
+</tr>
 </thead>
 <tbody>
 <tr>
 <th>
-<a href="https://www.javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Builtins.html>Builtins</a>
+<a href="https://www.javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Builtins.html">Builtins</a>
 </th>
 <td>
 所有的内置插件
