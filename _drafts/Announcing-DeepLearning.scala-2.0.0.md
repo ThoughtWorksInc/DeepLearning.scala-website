@@ -66,17 +66,19 @@ As always, all of the above features are statically type checked.
 
 <table>
 <thead>
+<tr>
 <th>
 Plugin Name
 </th>
 <th>
 Plugin Description
 </th>
+</tr>
 </thead>
 <tbody>
 <tr>
 <th>
-<a href="https://www.javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Builtins.html>Builtins</a>
+<a href="https://www.javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Builtins.html">Builtins</a>
 </th>
 <td>
 All the built-in plugins.
