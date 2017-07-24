@@ -127,7 +127,7 @@ L2 Regularization.
 <a href="https://gist.github.com/TerrorJack/08454c71448b626b013ddabd74d06adf#file-readme-ipynb">Momentum</a>
 </th>
 <td>
-The Momentum optimizer for SGD.
+The Momentum and NesterovMomentum optimizer for SGD.
 </td>
 </tr>
 <tr>
