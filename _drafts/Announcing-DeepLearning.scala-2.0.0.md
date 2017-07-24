@@ -76,6 +76,14 @@ Plugin Description
 <tbody>
 <tr>
 <th>
+<a href="https://www.javadoc.io/page/com.thoughtworks.deeplearning/plugins-builtins_2.11/latest/com/thoughtworks/deeplearning/plugins/Builtins.html>Builtins</a>
+</th>
+<td>
+All the built-in plugins.
+</td>
+</tr>
+<tr>
+<th>
 <a href="https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb">FixedLearningRate</a>
 </th>
 <td>
