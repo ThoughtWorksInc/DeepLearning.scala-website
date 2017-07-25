@@ -10,7 +10,7 @@ DeepLearning.scala是个简单的框架，能以面向对象和函数式编程�
 
 * DeepLearning.scala运行在JVM上。既可以用于单独的JVM应用和服务，也能运行在Jupyter Notebook里。
 * DeepLearning.scala建模能力比较灵活。各种类型的神经网络都可以通过`map`、`reduce`等lambda表达式组装出来。
-* DeepLearning.scala支持插件。任何算法、子网络、超参数都可以做成插件发布到Github Gist上。
+* DeepLearning.scala支持插件。任何算法、子网络、超参数都可以做成插件发布到Github Gist上，复用到各种模型中。
 * 以上所有功能都支持静态类型检查。
 
 ## DeepLearning.scala 2.0的特性
