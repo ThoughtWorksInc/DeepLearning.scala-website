@@ -64,10 +64,6 @@ The code base of DeepLearning.scala 2.0 is organized according to Dependent Obje
 
 For example, when a plugin author is creating the [Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc) optimizer plugin, he does not have to explicitly call functions related to learning rate. However, once a plugin user enables both the `Adagrad` plugin and the [FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb) plugin, then computation in `FixedLearningRate` will get called eventually when the `Adagrad` optimization is executed.
 
-### Static type system
-
-As always, all of the above features are statically type checked.
-
 ## Plugins for DeepLearning.scala 2.0
 
 
