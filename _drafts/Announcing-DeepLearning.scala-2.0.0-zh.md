@@ -175,5 +175,5 @@ A standalone CNN implementation.
 
 * [DeepLearning.scala主页](http://deeplearning.thoughtworks.school/)
 * [DeepLearning.scala Github页面](https://github.com/ThoughtWorksInc/DeepLearning.scala/)
-* [DeepLearning.scala 2.0快速上手指南](http://deeplearning.thoughtworks.school/demo/2.0.0-Preview/GettingStarted.html)
+* [DeepLearning.scala 2.0快速上手指南](http://deeplearning.thoughtworks.school/demo/GettingStarted.html)
 * [API参考文档](https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/package.html)
