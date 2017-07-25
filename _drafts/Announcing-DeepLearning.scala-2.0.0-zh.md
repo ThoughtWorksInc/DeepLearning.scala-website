@@ -4,7 +4,7 @@ featured: images/pic01.jpg
 layout: post
 ---
 
-今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。这是DeepLearning.scala的最新稳定版本。
+今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。这是DeepLearning.scala的最新稳定版本，不兼容1.x版本。
 
 DeepLearning.scala是个简单的框架，能以面向对象和函数式编程范式组建复杂的神经网络。
 
