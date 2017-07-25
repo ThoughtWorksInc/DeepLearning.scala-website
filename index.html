@@ -10,51 +10,47 @@ type: homepage
 			<h2>A simple library for creating complex neural networks</h2>
 		</header>
 		<p>
-			<strong>DeepLearning.scala</strong> is a domain-specific language embedded in <a href="http://scala-lang.org/">Scala</a>, for creating complex neural networks.
-			With the help of DeepLearning.scala, regular programmers are able to build complex neural networks from simple code.
-			You write code almost as usual. The only difference is that code based on DeepLearning.scala is <a href="https://colah.github.io/posts/2015-09-NN-Types-FP/">differentiable</a>,
-			able to evolve itself by modifying its parameters continuously.
+			<strong>DeepLearning.scala</strong> is a deep learning toolkit for Scala,<br/>
+			combining object-oriented and functional programming constructs,<br/>
+			aims to create statically typed dynamic neural networks<br/>
+			from <code>map</code>/<code>reduce</code> and other higher order functions.
 		</p>
 		<hr />
 		<div class="row">
-			<section class="6u" style="height: 24em">
+			<section class="6u" style="height: 26em">
 				<span class="pennant">
 					<span style="font-family: Georgia, serif; line-height: 1; font-size: 1.25em">∆</span>
 				</span>
 				<h3 style="white-space: nowrap">Differentiable Programming</h3>
-				<p style="text-align: justify">
-					DeepLearning.scala allows you to build neural networks from mathematical formulas.
-					It supports <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableFloat$.html">float</a>s,
-					<a href="https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableDouble$.html">double</a>s,
-					<a href="https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableINDArray$.html">GPU-accelerated N-dimensional array</a>s, and calculates derivatives of the weights in the formulas.
-				</p>
+				<p style="text-align: justify">DeepLearning.scala allows you to build neural networks from mathematical formulas. It supports <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/plugins/FloatLayers.html">floats</a>, <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/plugins/DoubleLayers.html">doubles</a>, <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/plugins/INDArrayLayers.html">GPU-accelerated N-dimensional arrays</a>, and calculates derivatives of the weights in the formulas.</p>
 			</section>
-			<section class="6u" style="height: 24em">
+			<section class="6u" style="height: 26em">
 				<span class="pennant">
 					<span style="font-family: Georgia, serif; line-height: 1; font-size: 1.25em;">λ</span>
 				</span>
 				<h3 style="white-space: nowrap">Functional Programming</h3>
 				<p style="text-align: justify">
-					DeepLearning.scala supports differentiable <a href="https://en.wikipedia.org/wiki/Algebraic_data_type">ADT</a> data structures (e.g. <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableHList$.html">HList</a> and <a href="https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableCoproduct$.html">Coproduct</a>) and differentiable control flow.
-					You can implement arbitary Turing-complete algorithms inside neural networks, and still keep some of the variables used in the algorithms differentiable and trainable.
+					Neural networks are Monads, which can be created by composing higher order functions.
+					Along with the Monad, we also provide an Applicative type class, to perform multiple calculations in parallel.
 				</p>
 			</section>
-			<section class="6u" style="height: 24em">
-				<span class="pennant"><span class="fa fa-cogs"></span></span>
-				<h3 style="white-space: nowrap">Composability</h3>
+			<section class="6u" style="height: 26em">
+				<span class="pennant"><span class="fa fa-magic"></span></span>
+				<h3 style="white-space: nowrap">Dynamic Neural Networks</h3>
 				<p style="text-align: justify">
-					Neural networks created by DeepLearning.scala are composable.
-					You can create complex networks by combining smaller networks, or even sharing sub-networks between different networks, taking advantage of Transfer Learning.
+				Neural networks are programs, too.
+				All Scala features, including functions, expressions and control flows, are available in neural networks,
+				which can be even evaluated step by step in a Jupyter Notebook.
 				</p>
 			</section>
-			<section class="6u" style="height: 24em">
+			<section class="6u" style="height: 26em">
 				<span class="pennant"><span class="fa fa-code"></span></span>
-				<h3 style="white-space: nowrap">Static Type System</h3>
+				<h3 style="white-space: nowrap">Plugins</h3>
 				<p style="text-align: justify">
-					Neural networks created by DeepLearning.scala are statically type checked, and have their own API signatures, making them reuseable in a larger system maintained by a big team.
+					DeepLearning.scala supports plugins. There are <a href="/plugins">various plugins</a> providing algorithms, models, hyperparameters or other features.
+					You can <a href="/get-involved">share your own plugins</a> as simple as creating a Github Gist.
 				</p>
 			</section>
-
 		</div>
 	</div>
 </div>
