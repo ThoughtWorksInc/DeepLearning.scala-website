@@ -62,7 +62,7 @@ The key construct in DeepLearning.scala 2.0 is the dependent type class [DeepLea
 
 The code base of DeepLearning.scala 2.0 is organized according to Dependent Object Type calculus (DOT). All features are provided as mixin-able plugins. A plugin is able to change APIs and behaviors of all DeepLearning.scala types. This approach not only resolves [expression problem](https://en.wikipedia.org/wiki/Expression_problem), but also gives plugins the additional ability of **virtually depending** on other plugins.
 
-For example, when a plugin author is creating the [Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc) optimizer plugin, he does not have to explicitly call functions related to learning rate. However, once a plugin user enables both the `Adagrad` and the [FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb) plugin, then computation in `FixedLearningRate` will get called eventually when the `Adagrad` optimization is executed.
+For example, when a plugin author is creating the [Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc) optimizer plugin, he does not have to explicitly call functions related to learning rate. However, once a plugin user enables both the `Adagrad` plugin and the [FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb) plugin, then computation in `FixedLearningRate` will get called eventually when the `Adagrad` optimization is executed.
 
 ### Static type system
 
