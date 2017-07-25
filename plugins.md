@@ -5,7 +5,7 @@ title: Plugins
 
 In DeepLearning.scala 2.0, all features are provided by plugins.
 
-A plugin is a Scala `trait` that can be mixed-in with other plugins. Plugins can either provide new features or modify behaviors of existing features.
+A plugin is Scala `trait` that can be mixed-in with other plugins. Since Scala `trait`s can be nested, we only refer the root level `trait` as a plugin. Plugins can either provide new features or modify behaviors of existing features.
 
 Here are some examples of what plugins can do:
 
