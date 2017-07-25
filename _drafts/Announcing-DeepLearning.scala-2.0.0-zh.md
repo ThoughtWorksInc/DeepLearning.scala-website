@@ -6,11 +6,11 @@ layout: post
 
 今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。这是DeepLearning.scala的最新稳定版本，不兼容1.x版本。
 
-DeepLearning.scala是个简单的框架，能以面向对象和函数式编程范式组建复杂的神经网络。
+DeepLearning.scala是个简单的框架，能以面向对象和函数式编程范式创建复杂的神经网络。
 
 * DeepLearning.scala运行在JVM上。既可以用于单独的JVM应用和服务，也能运行在Jupyter Notebook里。
-* DeepLearning.scala建模能力强。各种类型的神经网络都可以通过`map`、`reduce`等高阶函数组装出来。
-* DeepLearning.scala支持插件。你能找到各种插件，提供各种算法、模型、超参数等等。
+* DeepLearning.scala建模能力强。各种类型的神经网络都可以通过`map`、`reduce`等lambda表达式组装出来。
+* DeepLearning.scala支持插件。任何算法、子网络、超参数都可以做成插件发布到Github Gist上。
 * 以上所有功能都支持静态类型检查。
 
 ## DeepLearning.scala 2.0的特性
