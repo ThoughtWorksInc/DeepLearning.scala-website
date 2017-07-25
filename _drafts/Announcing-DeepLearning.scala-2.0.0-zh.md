@@ -65,7 +65,7 @@ DeepLearning.scala 2.0的核心概念是[DeepLearning](https://javadoc.io/page/c
 
 DeepLearning 2.0的代码结构利用了依赖对象类型演算（Dependent Object Type calculus，DOT），所有特性都通过支持混入（mixin）的插件来实现。插件能修改一切DeepLearning.scala类型的API和行为。这种架构不光解决了[expression problem](https://en.wikipedia.org/wiki/Expression_problem)，还让每个插件都可以“虚依赖”其他插件。
 
-比如，插件作者编写优化器[Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc)插件时，无需显式调用learning rate的计算。而一旦插件用户同时启用了`Adagrad`和[FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb)两个插件，那么最终的`Adagrad`执行优化时就会自动调用`FixedLearningRate`中的计算。
+比如，插件作者编写优化器[Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc)插件时，无需显式调用learning rate相关的函数。只要插件用户同时启用了`Adagrad`和[FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb)两个插件，那么最终的`Adagrad`执行优化时就会自动调用`FixedLearningRate`中的计算。
 
 ## DeepLearning.scala 2.0的插件
 
