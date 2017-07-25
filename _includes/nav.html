@@ -10,6 +10,7 @@
 					     style="height: 1.5em; vertical-align: text-bottom;">
 				</a>
 			</li>
+			<li {% if current[1] == 'doc' %}class='current'{% endif %}><a href="{{ site.github.url }}/plugins">Plugins</a></li>
 			<li {% if current[1] == 'doc' %}class='current'{% endif %}><a href="{{ site.github.url }}/doc">Documentation</a></li>
 			<li {% if current[1] == 'news' %}class='current'{% endif %}><a href="{{ site.github.url }}/news">News</a></li>
 			<li {% if current[1] == 'get-involved.html' %}class='current'{% endif %}><a href="{{ site.github.url }}/get-involved">Get Involved</a></li>
