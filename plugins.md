@@ -5,7 +5,7 @@ title: Plugins
 
 In DeepLearning.scala 2.0, all features are provided by plugins.
 
-A plugin is a Scala `trait` that can be mixed-in with other plugins. Plugins can either provide new features or modify behaviors of existing features.
+A plugin is Scala `trait` that can be mixed-in with other plugins. Plugins can either provide new features or modify behaviors of existing features.
 
 Here are some examples of what plugins can do:
 
@@ -45,6 +45,8 @@ def myNeuralNetwork(input: INDArray): hyperparameters.INDArrayLayer = {
 ```
 
 `INDArrayLayer` and `INDArrayWeight`, `function1`, `function2` and `method1` are types and functions provided by plugins. Also, those types and functions may differ when different plugins are used.
+
+Since Scala `trait`s can be nested, we only refer the root level `trait` as a plugin. For example, `Plugin1#INDArrayLayerApi` is a mixin trait but not a plugin; `Plugin1` is the plugin. Plugin users only need to create `hyperparameters` object from plugins (aka root level mixins), then all the nested types in those plugins are got mixed-in automatically.
 
 See [Getting Started](demo/2.0.0-Preview/GettingStarted.html) for a complete example of the usage of plugins.
 
