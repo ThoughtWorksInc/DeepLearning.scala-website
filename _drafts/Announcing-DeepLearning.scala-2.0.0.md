@@ -4,7 +4,12 @@ featured: images/pic01.jpg
 layout: post
 ---
 
-Today, we are happy to announce DeepLearning.scala 2.0.0, the new stable release of DeepLearning.scala, a simple library for creating complex neural networks.
+Today, we are happy to announce DeepLearning.scala 2.0.0, the new stable release of DeepLearning.scala, a simple library for creating complex neural networks from object-oriented and functional programming constructs.
+
+* DeepLearning.scala runs on JVM, can be used either in standalone JVM applications or a Jupyter Notebooks.
+* DeepLearning.scala is expressive. Various types of neural network layers can be created by composing `map`, `reduce` or other higher order functions.
+* DeepLearning.scala supports plug-ins. There are various plug-ins providing algorithms, models, hyperparameters or other features.
+* All the above features are statically type checked.
 
 ## Features in DeepLearning.scala 2.0
 
@@ -56,6 +61,8 @@ The key construct in DeepLearning.scala 2.0 is the dependent type class [DeepLea
 ### Object-oriented programming
 
 The code base of DeepLearning.scala 2.0 is organized according to Dependent Object Type calculus (DOT). All features are provided as mixin-able plugins. A plugin is able to change APIs and behaviors of all DeepLearning.scala types. This approach not only resolves [expression problem](https://en.wikipedia.org/wiki/Expression_problem), but also gives plugins the additional ability of **virtually depending** on other plugins.
+
+For example, when a plugin author is creating the [Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc) optimizer plugin, he does not have to call functions related to learning rate. Once a plugin user enables both the `Adagrad` and the [FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb) plugin, then computation in `FixedLearningRate` will get called eventually when the `Adagrad` optimization is executed.
 
 ### Static type system
 
