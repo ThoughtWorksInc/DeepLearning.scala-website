@@ -12,12 +12,12 @@ In DeepLearning.scala 2.0, a neural network is an ordinary Scala function that r
 
 `Factory`-based plugins resolve [expression problem](https://en.wikipedia.org/wiki/Expression_problem). Any hyperparameters, neural network optimization algorithms or special subnetworks are reusable in the simple `Factory[YourPlugin1 with YourPlugin2]` mechanism.
 
-See [Getting Started](http://deeplearning.thoughtworks.school/demo/2.0.0-Preview/GettingStarted.html) to have a try.
+See [Getting Started](https://github.com/ThoughtWorksInc/DeepLearning.scala-website/blob/v1.0.0-doc/ipynbs/2.0.0-Preview/GettingStarted.ipynb) to have a try.
 
 ### Links
 
 * [DeepLearning.scala homepage](http://deeplearning.thoughtworks.school/)
 * [DeepLearning.scala on Github](https://github.com/ThoughtWorksInc/DeepLearning.scala/)
-* [Getting Started for DeepLearning.scala 2.0](http://deeplearning.thoughtworks.school/demo/2.0.0-Preview/GettingStarted.html)
+* [Getting Started for DeepLearning.scala 2.0](https://github.com/ThoughtWorksInc/DeepLearning.scala-website/blob/v1.0.0-doc/ipynbs/2.0.0-Preview/GettingStarted.ipynb)
 * [Scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/package.html)
 * [Factory](https://javadoc.io/page/com.thoughtworks.feature/factory_2.11/latest/com/thoughtworks/feature/Factory.html)
