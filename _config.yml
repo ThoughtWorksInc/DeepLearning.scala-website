@@ -1,4 +1,4 @@
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-redirect-from]
 
 name: ThoughtWorks
 description: DeepLearning.scala by ThougthWorks
