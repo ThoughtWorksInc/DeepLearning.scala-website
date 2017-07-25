@@ -6,7 +6,12 @@ layout: post
 
 今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。这是DeepLearning.scala的最新稳定版本。
 
-DeepLearning.scala是个Scala库，能简简单单的创建复杂神经网络。
+DeepLearning.scala是个简单的框架，利用面向对象和函数式编程设施，组建复杂的神经网络。
+
+* DeepLearning.scala运行在JVM上。既可以用于单独的JVM应用和服务，也能运行在Jupyter Notebook里。
+* DeepLearning.scala建模能力强。各种类型的神经网络都可以通过`map`、`reduce`等高阶函数组装出来。
+* DeepLearning.scala支持插件。你能找到各种插件，提供各种算法、模型、超参数等等。
+* 以上所有功能都支持静态类型检查。
 
 ## DeepLearning.scala 2.0的特性
 
@@ -58,14 +63,9 @@ DeepLearning.scala 2.0的核心概念是[DeepLearning](https://javadoc.io/page/c
 
 ### 面向对象编程
 
-DeepLearning 2.0的代码结构利用了依赖对象类型演算（Dependent Object Type calculus，DOT），所有特性都通过支持混入（mixin）的插件来实现。插件能修改一切DeepLearning.scala类型的API和行为。这种架构不光解决了[expression problem](https://en.wikipedia.org/wiki/Expression_problem)，还让每个插件都可以“虚依赖”其他插件。
-
-### 静态类型系统
-
-与DeepLearning.scala 1.0一样，DeepLearning.scala 2.0所有特性都支持静态类型检查。
+DeepLearning 2.0的代码结构利用了依赖对象类型演算（Dependent Object Type calculus，DOT），所有特性都通过支持混入（mixin）的插件来实现。插件能修改一切DeepLearning.scala类型的API和行为。这种架构不光解决了[expression problem](https://en.wikipedia.org/wiki/Expression_problem)，还让每个插件都可以“虚依赖”其他插件。比如，作为插件作者，当你编写优化器[Adagrad](https://gist.github.com/Atry/89ee1baa4c161b8ccc1b82cdd9c109fe#file-adagrad-sc)插件时，无需显式调用learning rate的计算，而一旦用户同时启用了`Adagrad`和[FixedLearningRate](https://gist.github.com/Atry/1fb0608c655e3233e68b27ba99515f16#file-readme-ipynb)两个插件，那么最终的`Adagrad`执行优化时就会自动调用`FixedLearningRate`中的计算。
 
 ## DeepLearning.scala 2.0的插件
-
 
 <table>
 <thead>
