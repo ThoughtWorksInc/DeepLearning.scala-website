@@ -161,7 +161,7 @@ A plugin to dump weight matrices during training.
 <a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-readme-ipynb">CNN</a>
 </th>
 <td>
-A standalone CNN implementation.
+A standalone Convolutional Neural Network implementation.
 </td>
 </tr>
 </tbody>
