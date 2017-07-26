@@ -1,4 +1,4 @@
-gems: [jekyll-paginate, jekyll-redirect-from]
+gems: [jekyll-paginate, jekyll-redirect-from, 'jekyll-multiple-languages-plugin']
 
 name: ThoughtWorks
 description: DeepLearning.scala by ThougthWorks
@@ -15,3 +15,5 @@ assets:
 
 exclude:
   - README.md
+
+languages:          ['en', 'cn']
