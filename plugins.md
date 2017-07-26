@@ -167,7 +167,7 @@ A standalone CNN implementation.
 </tbody>
 <tfoot>
 <tr>
-<td colspan="2">Add your own algorithms, models or any cool features here.</td>
+<td colspan="2"><a href="https://github.com/ThoughtWorksInc/DeepLearning.scala-website/edit/master/plugins.md">Add your own algorithms, models or any cool features here.</a></td>
 </tr>
 </tfoot>
 </table>
