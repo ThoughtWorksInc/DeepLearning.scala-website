@@ -4,7 +4,7 @@ featured: images/pic01.jpg
 layout: post
 ---
 
-今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。这是DeepLearning.scala的最新稳定版本，不兼容1.x版本。
+今天，我们很荣幸宣布，DeepLearning.scala 2.0.0发布了。
 
 DeepLearning.scala是个简单的框架，能以面向对象和函数式编程范式创建复杂的神经网络。
 
@@ -15,9 +15,11 @@ DeepLearning.scala是个简单的框架，能以面向对象和函数式编程�
 
 ## DeepLearning.scala 2.0的特性
 
+相比1.x版本，DeepLearning.scala 2.0移除了对可微分（differentiable）的ADT类型和Boolean类型提供的特殊支持。现在可微分计算图只是普通的Scala代码，包括ADT和Boolean在内的一切类型都能直接使用。
+
 ### 动态神经网络
 
-与其他一些深度学习框架不同，DeepLearning.scala中的神经网络结构会在运行时才动态确定。我们的神经网络都是程序。一切Scala特性，包括函数和控制结构，都能直接在神经网络中使用。
+与其他一些深度学习框架不同，DeepLearning.scala中的神经网络结构会在运行时才动态确定。我们的神经网络都是程序。一切Scala特性，包括函数、表达式和流程控制语句，都能直接在神经网络中使用。
 
 比如：
 
