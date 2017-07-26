@@ -8,7 +8,7 @@ Today, we are happy to announce DeepLearning.scala 2.0.0, the new stable release
 
 * DeepLearning.scala runs on JVM, can be used either in standalone JVM applications or a Jupyter Notebooks.
 * DeepLearning.scala is expressive. Various types of neural network layers can be created by composing `map`, `reduce` or other higher order functions.
-* DeepLearning.scala supports plug-ins. You can share your own algorithms, models, hyperparameters as plugins, as simple as creating Github Gists.
+* DeepLearning.scala supports plugins. You can share your own algorithms, models, hyperparameters as a plugin, as simple as creating a Github Gist.
 * All the above features are statically type checked.
 
 ## Features in DeepLearning.scala 2.0
