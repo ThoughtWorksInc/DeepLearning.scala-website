@@ -3,18 +3,9 @@
   subitems:
     - text: GettingStarted
       url: /demo/GettingStarted.html
-    - text: Debug
-      url: /demo/Debug.html
     - text: SoftmaxLinearClassifier
       url: /demo/SoftmaxLinearClassifier.html
-    - text: TwoLayerNet
-      url: /demo/TwoLayerNet.html
-    - text: CNNs
-      url: /demo/CNNs.html
-- text: 2.0.0-Preview
-  url: /doc/
-  subitems:
-    - text: GettingStarted
-      url: /demo/2.0.0-Preview/GettingStarted.html
-    - text: SoftmaxLinearClassifier
-      url: /demo/2.0.0-Preview/SoftmaxLinearClassifier.html
+    - text: CharRNN
+      url: /demo/CharRNN.html
+    - text: ContributorGuide
+      url: /demo/ContributorGuide.html

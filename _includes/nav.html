@@ -4,15 +4,16 @@
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}>
-				<a href="{{ site.github.url }}/index.html">
+				<a href="{{ site.baseurl }}/index.html">
 					<img alt="DeepLearning.scala"
-					     src="{{ site.github.url }}/assets/images/logo-text-white-opacity.png" 
+					     src="{{ site.baseurl_root }}/assets/images/logo-text-white-opacity.png"
 					     style="height: 1.5em; vertical-align: text-bottom;">
 				</a>
 			</li>
-			<li {% if current[1] == 'doc' %}class='current'{% endif %}><a href="{{ site.github.url }}/doc">Documentation</a></li>
-			<li {% if current[1] == 'news' %}class='current'{% endif %}><a href="{{ site.github.url }}/news">News</a></li>
-			<li {% if current[1] == 'get-involved.html' %}class='current'{% endif %}><a href="{{ site.github.url }}/get-involved">Get Involved</a></li>
+			<li {% if current[1] == 'doc' %}class='current'{% endif %}><a href="{{ site.baseurl }}/plugins">Plugins</a></li>
+			<li {% if current[1] == 'doc' %}class='current'{% endif %}><a href="{{ site.baseurl }}/doc">Documentation</a></li>
+			<li {% if current[1] == 'news' %}class='current'{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+			<li {% if current[1] == 'get-involved.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved">Get Involved</a></li>
 		</ul>
 	</nav>
 </div></div>

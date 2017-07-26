@@ -12,21 +12,21 @@ Released for free under the Apache 2.0 license (https://github.com/ThoughtWorksI
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
-	<script src="{{ site.github.url }}/assets/js/skel.min.js"> </script>
-	<script src="{{ site.github.url }}/assets/js/skel-panels.min.js"></script>
-	<script src="{{ site.github.url }}/assets/js/init.js"> </script>
+	<script src="{{ site.baseurl_root }}/assets/js/skel.min.js"> </script>
+	<script src="{{ site.baseurl_root }}/assets/js/skel-panels.min.js"></script>
+	<script src="{{ site.baseurl_root }}/assets/js/init.js"> </script>
 	<script>
-		init_init("{{ site.github.url }}/assets/css/style");
+		init_init("{{ site.baseurl_root }}/assets/css/style");
 	</script>
 	<noscript>
-		<link rel="stylesheet" href="{{ site.github.url }}/assets/css/skel-noscript.css" />
-		<link rel="stylesheet" href="{{ site.github.url }}/assets/css/style.css" />
-		<link rel="stylesheet" href="{{ site.github.url }}/assets/css/style-desktop.css" />
+		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/skel-noscript.css" />
+		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/style.css" />
+		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/style-desktop.css" />
 	</noscript>
 	<style>
 		{% if page.background != none %}
 		#header, #tweet{
-			background-image: url("{{ site.github.url }}/assets/images/{{page.background}}");
+			background-image: url("{{ site.baseurl_root }}/assets/images/{{page.background}}");
 		}
 
 		{% endif %}
@@ -43,7 +43,7 @@ Released for free under the Apache 2.0 license (https://github.com/ThoughtWorksI
 
 			<!-- Logo -->
 			<div id="logo">
-				<h1><a><img width="65%" alt="DeepLearning.scala" src="{{ site.github.url }}/assets/images/logo-text-white-opacity.png"/></a></h1>
+				<h1><a><img width="65%" alt="DeepLearning.scala" src="{{ site.baseurl_root }}/assets/images/logo-text-white-opacity.png"/></a></h1>
 				<span class="tag">By ThoughtWorks</span>
 			</div>
 		</div>
@@ -76,7 +76,7 @@ Released for free under the Apache 2.0 license (https://github.com/ThoughtWorksI
 				<li><a href="https://github.com/ThoughtWorksInc/DeepLearning.scala" title="Github" class="fa fa-github"><span>Github</span></a></li>
 				<li><a href="https://gitter.im/ThoughtWorksInc/DeepLearning.scala" title="Gitter" style="width: 20px">
 					<svg
-						version="1.1" 
+						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
 						xmlns:xlink="http://www.w3.org/1999/xlink"
 						viewBox="0 0 14 20"

@@ -48,7 +48,7 @@ def myNeuralNetwork(input: INDArray): hyperparameters.INDArrayLayer = {
 
 Since Scala `trait`s can be nested, we only refer the root level `trait` as a plugin. For example, `Plugin1#INDArrayLayerApi` is a mixin trait but not a plugin; `Plugin1` is the plugin. Plugin users only need to create `hyperparameters` object from plugins (aka root level mixins), then all the nested types in those plugins are got mixed-in automatically.
 
-See [Getting Started](demo/2.0.0-Preview/GettingStarted.html) for a complete example of the usage of plugins.
+See [Getting Started](demo/GettingStarted.html) for a complete example of the usage of plugins.
 
 ## Built-in plugins
 
@@ -172,4 +172,4 @@ A standalone CNN implementation.
 </tfoot>
 </table>
 
-See [Contributor Guide](demo/2.0.0-Preview/ContributorGuide.html) for the guideline to build a plugin.
+See [Contributor Guide](demo/ContributorGuide.html) for the guideline to build a plugin.
