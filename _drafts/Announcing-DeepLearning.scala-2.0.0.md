@@ -13,6 +13,8 @@ Today, we are happy to announce DeepLearning.scala 2.0.0, the new stable release
 
 ## Features in DeepLearning.scala 2.0
 
+In DeepLearning.scala 2.0, we removed the special support for differentiable ADT and `Boolean` types. Now differentiable computational graphs are ordinary Scala code, so all types including ADT and `Boolean` are avialable in these graphs.
+
 ### Dynamic neural networks
 
 Unlike some other deep learning frameworks, the structure of neural networks in DeepLearning.scala is dynamically determined during running. Our neural networks are programs. All Scala features, including functions and expressions, are available in neural networks.
