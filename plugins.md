@@ -110,7 +110,7 @@ An adaptive gradient algorithm with per-parameter learning rate for INDArray wei
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/8154015cc0ac5cfba8e351b642ef12b3#file-readme-ipynb">L1Regularization</a>
+<a href="https://gist.github.com/Atry/843f606fc89bd4594ffcd03853c6edc6#file-readme-ipynb">L1Regularization</a>
 </th>
 <td>
 L1 Regularization.
