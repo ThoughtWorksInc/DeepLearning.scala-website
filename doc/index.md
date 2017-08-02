@@ -37,5 +37,5 @@ jupyter notebook
 
  * [DeepLearning.scala project page](https://github.com/ThoughtWorksInc/DeepLearning.scala/)
  * [Tutorials for DeepLearning.scala 1.0.0](https://github.com/ThoughtWorksInc/deeplearning-tutorial/tree/1.0.x)
- * [DeepLearning.scala API reference](https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/package.html)
+ * [API reference documentation](https://javadoc.io/page/com.thoughtworks.deeplearning/deeplearning_2.11/latest/com/thoughtworks/deeplearning/package.html)
 
