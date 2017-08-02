@@ -12,11 +12,11 @@ Along with the library, we created [a series of tutorials](http://deeplearning.t
 
 ### Differentiable basic types
 
-Like [Theano](http://deeplearning.net/software/theano/) and other deep learning toolkits, DeepLearning.scala allows you to build neural networks from mathematical formulas. It supports [float](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/DifferentiableFloat$.html)s, [double](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/DifferentiableDouble$.html)s, [GPU-accelerated N-dimensional array](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/DifferentiableINDArray$.html)s, and calculates derivatives of the weights in the formulas.
+Like [Theano](http://deeplearning.net/software/theano/) and other deep learning toolkits, DeepLearning.scala allows you to build neural networks from mathematical formulas. It supports [float](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableFloat$.html)s, [double](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableDouble$.html)s, [GPU-accelerated N-dimensional array](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableINDArray$.html)s, and calculates derivatives of the weights in the formulas.
 
 ### Differentiable ADTs
 
-Neural networks created by DeepLearning.scala support [ADT](https://en.wikipedia.org/wiki/Algebraic_data_type) data structures (e.g. [HList](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/DifferentiableHList$.html) and [Coproduct](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/DifferentiableCoproduct$.html)), and calculate derivatives through these data structures.
+Neural networks created by DeepLearning.scala support [ADT](https://en.wikipedia.org/wiki/Algebraic_data_type) data structures (e.g. [HList](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableHList$.html) and [Coproduct](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/DifferentiableCoproduct$.html)), and calculate derivatives through these data structures.
 
 ### Differentiable control flow
 
@@ -33,7 +33,7 @@ All of the above features are statically type checked.
 ## Links
 
 * [Tutorials](https://thoughtworksinc.github.io/DeepLearning.scala/doc/)
-* [Scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/latest/com/thoughtworks/deeplearning/package.html)
+* [Scaladoc](https://javadoc.io/page/com.thoughtworks.deeplearning/unidoc_2.11/1.0.0/com/thoughtworks/deeplearning/package.html)
 * [Chat room](https://gitter.im/ThoughtWorksInc/DeepLearning.scala)
 
 ## Acknowledges
