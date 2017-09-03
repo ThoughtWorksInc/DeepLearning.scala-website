@@ -13,7 +13,7 @@ Here are some examples of what plugins can do:
 * A special subnetwork
 * A primary differentiable operator
 * Logging
-* Integration of a linear algebra library other than nd4j
+* Integration of a back-end other than nd4j
 
 ## How to use plugins?
 
