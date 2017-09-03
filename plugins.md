@@ -51,7 +51,7 @@ Since Scala `trait`s can be nested, the term *plugin* is only used to refer to t
  * `Plugin1#INDArrayLayerApi` is a mixin trait but not a plugin;
  * `Plugin1` is the plugin.
 
-Plugin users only need to create `hyperparameters` object from plugins (aka root level mixins), then all the nested types of same name in those plugins are got mixed-in automatically.
+Plugin users only need to create `hyperparameters` object from plugins (aka root level mixins), then all the nested types of same name in those plugins get mixed-in automatically.
 
 See [Getting Started](demo/GettingStarted.html) for a complete example of the usage of plugins.
 
