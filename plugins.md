@@ -163,7 +163,7 @@ A plugin to dump weight matrices during training.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/cdd9cc5adc82fc86abf8b4c72cd26e76#file-readme-ipynb">CNN</a>
+<a href="https://gist.github.com/Atry/15b7d9a4c63d95ad3d67e94bf20b4f69#file-readme-ipynb">CNN</a>
 </th>
 <td>
 A standalone Convolutional Neural Network implementation.
