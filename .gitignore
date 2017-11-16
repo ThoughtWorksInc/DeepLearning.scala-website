@@ -11,3 +11,5 @@ project/target
 secret
 target
 local.sbt
+demo/*.log*
+demo/.ipynb_checkpoints
