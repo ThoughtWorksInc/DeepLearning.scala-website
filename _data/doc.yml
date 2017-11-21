@@ -9,3 +9,5 @@
       url: /demo/CharRNN.html
     - text: ContributorGuide
       url: /demo/ContributorGuide.html
+    - text: Convolutional Neural Network
+      url: /demo/CNN.html
