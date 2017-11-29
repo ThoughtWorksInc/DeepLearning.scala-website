@@ -147,7 +147,7 @@ The RMSprop optimizer for SGD.
 </tr>
 <tr>
 <th>
-<a href="https://gist.github.com/TerrorJack/4a4dd1929963a34bf20340022b0f03d3#file-readme-ipynb">Adam</a>
+<a href="https://gist.github.com/Rabenda/0c2fc6ba4cfa536e4788112a94200b50#file-readme-ipynb">Adam</a>
 </th>
 <td>
 The Adam optimizer for SGD.
