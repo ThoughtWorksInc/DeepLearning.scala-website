@@ -17,7 +17,7 @@ cache:
     - $HOME/.coursier/
 
 install:
-  - curl -L -o jupyter-scala https://raw.githubusercontent.com/alexarchambault/jupyter-scala/master/jupyter-scala
+  - curl -L -o jupyter-scala https://raw.githubusercontent.com/Atry/jupyter-scala/master/jupyter-scala
   - bash jupyter-scala
   - python3 -m pip install jupyter
   - bundle install
